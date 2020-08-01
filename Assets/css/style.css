@@ -3,7 +3,7 @@
 }
 .container {
     max-width: 700px;
-    padding: 20px;
+    padding: 10px;
     float: left;
     margin: 40px;
 }
@@ -11,4 +11,10 @@
     width: 100%;
     max-width: 150px;
     height: auto;
+}
+form {
+    padding: 40px;
+}
+.row {
+    margin: 10px;
 }
