@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 700px;
+    padding: 20px;
+    float: left;
+    margin: 40px;
+}
+.img-responsive {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
