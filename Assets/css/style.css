@@ -1,11 +1,21 @@
 *{
     box-sizing: border-box;
+    background-color: floralwhite;
+    font-family: 'Playfair Display', serif;
+}
+.navbar-custom {
+    background-color: lightsalmon;
+    font-family: 'Playfair Display', serif;
+}
+header {
+    border-bottom: black;
 }
 .container {
     max-width: 800px;
     padding: 10px;
     float: left;
     margin: 40px;
+    background-color: floralwhite;
 }
 .img-responsive {
     width: 100%;
@@ -22,7 +32,7 @@ form {
     width: 100%;
     height: auto;
     border: none;
-    border: 2px purple solid;
+    border: 2px salmon solid;
 }
 @media screen and (min-width: 400px) and (max-width: 768px) {
     .wrapper {
@@ -30,7 +40,7 @@ form {
     } 
 
     .portfolio-img {
-        border: 2px red solid;
+        border: 2px lightsalmon solid;
         margin: none;
     }
     .container {
@@ -39,7 +49,7 @@ form {
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .portfolio-img {
-        border: 2px green solid;
+        border: 2px black solid;
         margin: 0px;
     }
 }
